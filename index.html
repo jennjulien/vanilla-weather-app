@@ -41,8 +41,7 @@
         <div class="overview">
         <h1 id="city"></h1>
         <ul>
-          <li>Last updated: <span id="date"></span>
-          </li>
+          <li>Last updated: <span id="date"></span></li>
           <li id="description"></li>
         </ul>
         </div>
@@ -52,13 +51,15 @@
             <img
               src="" alt="Cloudy" id="icon" class="float-left" />
             <div class="float-left">
-               <strong id="temperature"></strong><span class="units">°F | <a href="#">°C</a> </span>
+               <strong id="temperature"></strong
+               ><span class="units"
+                ><a href="#" id="celsius-link">°C</a> |
+                <a href="#" id="fahrenheit-link">°F</a></span>
           </div>
             </div>
           </div>
           <div class="col-6">
             <ul>
-              <li>Precipitation: 3%</li>
               <li>Humidity: <span id="humidity"></span>%</li>
               <li>Wind: <span id="wind"></span>mph</li>
             </ul>
@@ -75,7 +76,8 @@
         by Jennifer Julien
       </small>
     </div>
-    <script src="src/app.js"></script>
+    <script src="src/app.js">
+    </script>
     </div>
     </html>
 
