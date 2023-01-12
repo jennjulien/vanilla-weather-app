@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: black;
+  color: #878787;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -19,14 +19,14 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-transform: capitalize;
-  color: black;
+
+  color: rgb(135, 135, 135);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
 }
 
-li::first-letter {
+li:first-letter {
   text-transform: capitalize;
 }
 
@@ -36,8 +36,6 @@ li::first-letter {
 }
 
 .weather-app {
-  max-width: 600px;
-  margin: 30 auto;
   padding: 20px;
   border: 1px solid hotpink;
   border-radius: 5px;
@@ -54,7 +52,7 @@ li::first-letter {
 }
 
 .weather-temperature strong {
-  color: black;
+  color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -67,10 +65,29 @@ li::first-letter {
 }
 
 .weather-temperature .active {
-  color: black;
+  color: rgb(33, 33, 33);
   cursor: default;
 }
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
